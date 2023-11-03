@@ -1,0 +1,116 @@
+{
+  "animales": [
+    {
+      "id": 1,
+      "nombre": "Luna",
+      "raza": "Golden Retriever",
+      "dob": "2023-08-04",
+      "genero": "Hembra"
+    },
+    {
+      "id": 2,
+      "nombre": "Max",
+      "raza": "Pastor Alemán",
+      "dob": "2023-06-12",
+      "genero": "Macho"
+    },
+    {
+      "id": 3,
+      "nombre": "Bella",
+      "raza": "Gato Siames",
+      "dob": "2023-05-05",
+      "genero": "Hembra"
+    },
+    {
+      "id": 4,
+      "nombre": "Toby",
+      "raza": "Labrador Retriever",
+      "dob": "2023-04-23",
+      "genero": "Macho"
+    },
+    {
+      "id": 5,
+      "nombre": "Lucy",
+      "raza": "Yorkshire Terrier",
+      "dob": "2023-03-18",
+      "genero": "Hembra"
+    },
+    {
+      "id": 6,
+      "nombre": "Rocky",
+      "raza": "Bulldog",
+      "dob": "2023-02-10",
+      "genero": "Macho"
+    },
+    {
+      "id": 7,
+      "nombre": "Daisy",
+      "raza": "Beagle",
+      "dob": "2023-01-25",
+      "genero": "Hembra"
+    },
+    {
+      "id": 8,
+      "nombre": "Charlie",
+      "raza": "Poodle",
+      "dob": "2022-12-31",
+      "genero": "Macho"
+    },
+    {
+      "id": 9,
+      "nombre": "Molly",
+      "raza": "Pug",
+      "dob": "2022-11-22",
+      "genero": "Hembra"
+    },
+    {
+      "id": 10,
+      "nombre": "Buddy",
+      "raza": "Labrador Retriever",
+      "dob": "2022-10-30",
+      "genero": "Macho"
+    },
+    {
+      "id": 11,
+      "nombre": "Bailey",
+      "raza": "Golden Retriever",
+      "dob": "2022-09-20",
+      "genero": "Hembra"
+    },
+    {
+      "id": 12,
+      "nombre": "Cooper",
+      "raza": "Yorkshire Terrier",
+      "dob": "2022-08-16",
+      "genero": "Macho"
+    },
+    {
+      "id": 13,
+      "nombre": "Sadie",
+      "raza": "Poodle",
+      "dob": "2022-07-24",
+      "genero": "Hembra"
+    },
+    {
+      "id": 14,
+      "nombre": "Chloe",
+      "raza": "Bulldog",
+      "dob": "2022-06-21",
+      "genero": "Hembra"
+    },
+    {
+      "id": 15,
+      "nombre": "Max",
+      "raza": "German Shepherd",
+      "dob": "2022-05-18",
+      "genero": "Macho"
+    },
+    {
+      "nombre": "Pirulo",
+      "raza": "Weirmarguazer",
+      "dob": "2020-08-13",
+      "genero": "Salchicho",
+      "id": 16
+    }
+  ]
+}

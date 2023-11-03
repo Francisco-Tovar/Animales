@@ -1,0 +1,69 @@
+<div style="width: 400px; margin: auto;">
+  <div *ngIf="animalActual" class="edit-form">
+    <h4>Animal</h4>
+    <form>
+      <div class="form-group">
+        <label for="title">Nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          [(ngModel)]="animalActual.nombre"
+          name="title"
+        />
+      </div>
+      <div class="form-group">
+        <label for="raza">Raza</label>
+        <input
+          type="text"
+          class="form-control"
+          id="raza"
+          [(ngModel)]="animalActual.raza"
+          name="raza"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Fecha de Nacimiento</label>
+        <input
+          type="text"
+          class="form-control"
+          id="dob"
+          [(ngModel)]="animalActual.dob"
+          name="dob"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="genero">Genero</label>
+        <input
+          type="text"
+          class="form-control"
+          id="genero"
+          [(ngModel)]="animalActual.genero"
+          name="genero"
+        />
+      </div>
+
+
+    </form>
+
+    <button class="btn btn-success" (click)="borrarAnimal()">
+      Borrar
+    </button>
+
+    <button
+      type="submit"
+      class="btn btn-success"
+      (click)="actualizarAnimal()"
+    >
+      Actualizar
+    </button>
+    <p>{{ mensaje }}</p>
+  </div>
+
+  <div *ngIf="!animalActual">
+    <br />
+    <p>No se puede acceder al animal...</p>
+  </div>
+</div>
